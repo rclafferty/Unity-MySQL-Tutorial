@@ -303,3 +303,15 @@ public class User
         }
     }
 }
+
+public class PlayerGear
+{
+    [SerializeField]
+    private string pathHead;
+    [SerializeField]
+    private string pathShoulders;
+    [SerializeField]
+    private string pathRightHand;
+    [SerializeField]
+    private string pathLeftHand; // OffHand
+}
